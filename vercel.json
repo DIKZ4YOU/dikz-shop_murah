@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/dikzshop/add.php",    "destination": "/api/dikzshop/add" },
+    { "source": "/dikzshop/delete.php", "destination": "/api/dikzshop/delete" },
+    { "source": "/dikzshop/ganti.php",  "destination": "/api/dikzshop/ganti" },
+    { "source": "/apiii.php",           "destination": "/api/blast" },
+    { "source": "/(.*)",                "destination": "/index.html" }
+  ]
+}
+
